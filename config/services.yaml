@@ -4,6 +4,22 @@
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
+    app.currencies:
+        EUR:
+            buy: -0.05
+            sell: 0.07
+        USD:
+            buy: -0.05
+            sell: 0.07
+        CZK:
+            buy: null
+            sell: 0.15
+        IDR:
+            buy: null
+            sell: 0.15
+        BRL:
+            buy: null
+            sell: 0.15
 
 services:
     # default configuration for services in *this* file
